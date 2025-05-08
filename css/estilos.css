@@ -11,7 +11,9 @@ body {
   line-height: 1.6;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: #d35400;
 }
 
@@ -123,6 +125,13 @@ article h4 {
 }
 .hero .container {
   z-index: 2;
+}
+
+#nombre-restaurante {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #d35400;
 }
 
 /*# sourceMappingURL=estilos.css.map */

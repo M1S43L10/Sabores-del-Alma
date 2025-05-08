@@ -25,13 +25,17 @@
             href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
             rel="stylesheet" />
 
+        <link
+            href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&display=swap"
+            rel="stylesheet">
+
         <!-- Estilos propios -->
         <link rel="stylesheet" href="css/estilos.css" />
     </head>
     <body>
 
         <!-- NAVBAR -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
             <div class="container">
                 <a class="navbar-brand" href="index.html">
                     <img src="img/logo_main.png" alt="Sabores del Alma"
@@ -58,16 +62,20 @@
                 </div>
             </div>
         </nav>
-
+        <!-- Hero -->
         <section class="hero text-center">
             <div class="container">
                 <h1 class="display-3 fw-bold">
                     Bienvenidos a
                     <span id="nombre-restaurante"
-                        class="text-warning position-relative">
+                        class="position-relative d-inline-block">
                         Sabores del Alma
+                        <img id="cuchara" src="img/cuchara.png"
+                            alt="Cuchara decorativa" class="position-absolute"
+                            style="opacity: 0;">
                     </span>
                 </h1>
+
                 <p class="lead mt-3">Un rincón donde cada plato cuenta una
                     historia, y cada visita se convierte en recuerdo.</p>
                 <a href="menu.html" class="btn btn-warning btn-lg mt-4">Ver

@@ -1,3 +1,6 @@
+@use '../base/variables' as variables;
+
+
 .hero {
   background-image: url('../img/hero-bg.png');
   background-size: cover;
@@ -33,4 +36,11 @@
   .container {
     z-index: 2;
   }
+}
+
+#nombre-restaurante {
+  font-family: variables.$fuente-logo;
+  font-size: 3rem;
+  font-weight: 700;
+  color: variables.$color-primario;
 }
