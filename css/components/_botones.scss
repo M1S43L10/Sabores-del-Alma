@@ -1,0 +1,17 @@
+@use '../base/variables' as variables;
+
+
+.btn {
+    display: inline-block;
+    background-color: variables.$color-secundario;
+    color: white;
+    padding: 0.8rem 1.2rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: darken(variables.$color-secundario, 10%);
+    }
+  }
+  

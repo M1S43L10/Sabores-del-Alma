@@ -1,0 +1,26 @@
+
+@use '../base/variables' as variables;
+
+header {
+    background-color: variables.$color-primario;
+    color: white;
+    padding: 1rem;
+  
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  
+      ul {
+        display: flex;
+        list-style: none;
+        gap: 1rem;
+  
+        li a {
+          color: white;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  
