@@ -28,18 +28,23 @@ nombre.addEventListener('mouseleave', () => {
 // Función de tamaño responsive
 function ajustarCucharaResponsive() {
   const ancho = window.innerWidth;
+  const titulo = document.getElementById('titulo-hero'); // el <h1> que contiene el texto
 
   if (ancho <= 576) {
     cuchara.style.width = '70px';
-    cuchara.style.top = '-50px';
+    cuchara.style.top = '-30px';
+    if (titulo) titulo.style.marginTop = '2rem'; // espacio extra arriba en mobile
   } else if (ancho <= 768) {
     cuchara.style.width = '100px';
-    cuchara.style.top = '-70px';
+    cuchara.style.top = '-60px';
+    if (titulo) titulo.style.marginTop = '1rem';
   } else {
     cuchara.style.width = '150px';
     cuchara.style.top = '-100px';
+    if (titulo) titulo.style.marginTop = '0';
   }
 }
+
 
 // Ejecutar al cargar y al redimensionar
 ajustarCucharaResponsive();

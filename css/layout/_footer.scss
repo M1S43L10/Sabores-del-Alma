@@ -1,11 +1,64 @@
 @use '../base/variables' as variables;
 
-
 footer {
-    background-color: variables.$color-primario;
-    color: white;
-    text-align: center;
-    padding: 1rem;
-    margin-top: 2rem;
+  background-color: variables.$color-primario;
+  color: white;
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 1.5rem;
+  margin-top: 2rem;
+
+  .container {
+    text-align: left;
+
+    @media (max-width: 767px) {
+      text-align: center;
+    }
   }
-  
+
+  h5 {
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+
+  ul {
+    padding-left: 0;
+
+    li {
+      list-style: none;
+      margin-bottom: 0.5rem;
+
+      a {
+        color: white;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  .footer-icon {
+    color: white;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: variables.$color-secundario;
+    }
+  }
+
+  .text-muted {
+    color: rgba(255, 255, 255, 0.6) !important;
+  }
+
+  hr {
+    border-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .copyright {
+    font-size: 0.85rem;
+    margin-top: 1rem;
+    color: rgba(255, 255, 255, 0.6);
+  }
+}
