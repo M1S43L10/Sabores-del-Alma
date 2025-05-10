@@ -161,6 +161,31 @@ article h4 {
   transform: scale(1.05);
 }
 
+.card-img-top {
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-body .card-title {
+  margin-bottom: 0.5rem;
+}
+
+.card-body .card-text {
+  flex-grow: 1;
+}
+
+.card-body .fw-bold {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
 .hero {
   background-image: url("../img/hero-bg.png");
   background-size: cover;

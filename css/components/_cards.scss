@@ -47,8 +47,35 @@ article {
     border-radius: 0.5rem;
     break-inside: avoid;
     transition: transform 0.3s ease;
+
     &:hover {
       transform: scale(1.05);
     }
   }
+}
+
+.card-img-top {
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-body .card-title {
+  margin-bottom: 0.5rem;
+}
+
+.card-body .card-text {
+  flex-grow: 1; // hace que el texto ocupe el espacio disponible
+}
+
+.card-body .fw-bold {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
