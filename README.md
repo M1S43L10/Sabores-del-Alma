@@ -38,7 +38,7 @@ Consiste en el desarrollo completo de un sitio web para un restaurante ficticio 
 
 ## 🧑‍💻 Autor
 
-- **Nombre:** [Tu nombre acá]
+- **Nombre:** Misael Maximiliano Ramirez
 - **Curso:** Desarrollo Web - Coderhouse
 - **Entrega final:** Mayo 2025
 
