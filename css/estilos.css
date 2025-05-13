@@ -186,6 +186,19 @@ article h4 {
   margin-bottom: 0.5rem;
 }
 
+.galeria h2 {
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+.galeria .sombra-galeria {
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.galeria .sombra-galeria:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
 .hero {
   background-image: url("../img/hero-bg.png");
   background-size: cover;
