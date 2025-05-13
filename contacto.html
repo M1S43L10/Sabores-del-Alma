@@ -63,6 +63,64 @@
             </div>
         </nav>
 
+        <!-- FORMULARIO -->
+        <section class="py-5 bg-light">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-md-6">
+                        <h2>¿Querés hacer una reserva?</h2>
+                        <p>Completá el formulario y te responderemos a la
+                            brevedad.</p>
+                        <form>
+                            <div class="mb-3">
+                                <label for="nombre"
+                                    class="form-label">Nombre</label>
+                                <input type="text" class="form-control"
+                                    id="nombre" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Correo
+                                    electrónico</label>
+                                <input type="email" class="form-control"
+                                    id="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensaje"
+                                    class="form-label">Mensaje</label>
+                                <textarea class="form-control" id="mensaje"
+                                    rows="5" required></textarea>
+                            </div>
+                            <button type="submit"
+                                class="btn btn-warning">Enviar</button>
+                        </form>
+                    </div>
+
+                    <div class="col-md-6">
+                        <h2>Información de contacto</h2>
+                        <ul class="list-unstyled">
+                            <li><i
+                                    class="bi bi-geo-alt-fill me-2 text-warning"></i>
+                                Av. Siempre Viva 123, Buenos Aires</li>
+                            <li><i
+                                    class="bi bi-telephone-fill me-2 text-warning"></i>
+                                (011) 1234-5678</li>
+                            <li><i
+                                    class="bi bi-envelope-fill me-2 text-warning"></i>
+                                contacto@saboresdelalma.com</li>
+                        </ul>
+
+                        <!-- Mapa (opcional) -->
+                        <div class="mt-4">
+                            <iframe
+                                src="https://www.google.com/maps?q=obelisco,+buenos+aires&output=embed"
+                                width="100%" height="250" style="border:0;"
+                                allowfullscreen loading="lazy"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <footer class="bg-dark text-white pt-5 pb-3">
             <div class="container text-center text-md-start">
                 <div class="row">
