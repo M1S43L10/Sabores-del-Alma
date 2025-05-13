@@ -17,7 +17,7 @@ Consiste en el desarrollo completo de un sitio web para un restaurante ficticio 
 - **Inicio:** Hero con animaciones, presentación del restaurante.
 - **Menú:** Platos categorizados (entradas, principales, postres, bebidas) con filtro interactivo.
 - **Nosotros:** Historia del restaurante, valores y enfoque gastronómico.
-- **Galería:** Imágenes del local y de los platos destacados.
+- **Galería:** Imágenes del local y de los platos destacados, con efecto de deslizar (Fancybox).
 - **Contacto:** Formulario, dirección, redes y mapa de ubicación.
 - **Carrito visual:** Simulación de pedidos desde el menú.
 
@@ -25,14 +25,24 @@ Consiste en el desarrollo completo de un sitio web para un restaurante ficticio 
 
 ## 🛠️ Tecnologías utilizadas
 
-- HTML5
-- SASS (SCSS modular)
-- Bootstrap 5
-- JavaScript (JS puro)
-- AOS.js (Animaciones al hacer scroll)
-- MixItUp (Filtros dinámicos)
-- Bootstrap Icons
-- Git + GitHub Pages
+- **HTML5 + SEO**
+- **SASS (SCSS modular)**: Estructura organizada y variables personalizadas
+- **Bootstrap 5**: Layout responsivo y componentes
+- **JavaScript Vanilla**: Funcionalidades interactivas sin frameworks
+- **Fancybox**: Galería deslizable con lightbox
+- **AOS.js**: Animaciones al hacer scroll
+- **Filtros con JS** (en Menu)
+- **Bootstrap Icons**
+- **Git + GitHub Pages**: Deploy del proyecto
+
+---
+
+## 💡 Funcionalidades destacadas
+
+- Diseño responsive adaptable a celulares y tablets
+- Efectos visuales al pasar el mouse en imágenes (zoom, sombras, animaciones)
+- Animaciones personalizadas con SASS puro
+- Estructura modular escalable
 
 ---
 
@@ -40,7 +50,7 @@ Consiste en el desarrollo completo de un sitio web para un restaurante ficticio 
 
 - **Nombre:** Misael Maximiliano Ramirez
 - **Curso:** Desarrollo Web - Coderhouse
-- **Entrega final:** Mayo 2025
+- **Entrega final:** 15 de Mayo 2025
 
 ---
 
